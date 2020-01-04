@@ -38,8 +38,16 @@ $aluno->setDeslogin("aluno");
 $aluno->setDessenha("@lun0");
 $aluno->insert();
 echo $aluno;*/
+
+/* UPDATE 
 $usuario = new Usuario();
 $usuario->loadbyId(6);
 $usuario->update("professor","!@#$&");
-echo $usuario;
+echo $usuario; */ 
+
+/* DELETE */
+$usuario = new Usuario();
+$usuario->loadbyId(7);
+$usuario->delete();
+echo $usuario; 
 ?>
